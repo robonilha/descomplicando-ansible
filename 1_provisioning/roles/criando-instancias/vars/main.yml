@@ -1,0 +1,9 @@
+---
+# vars file for criando-instancias
+instance_type: t3a.medium
+sec_group_name: giropops
+image: ami-0c960b947cbb2dd16
+keypair: ansible-course
+region: eu-central-1
+count: 3
+profile: bonilha-ansible
